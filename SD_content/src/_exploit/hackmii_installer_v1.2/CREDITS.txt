@@ -1,0 +1,376 @@
+We proudly used the following third-party software -- sometimes in
+modified form -- in (or to make) this distribution. Many packages
+request acknowledgement and/or the reproduction of a copyright
+statement or disclaimer of warranty, so here it is.
+
+---
+
+DevkitPPC release 24 (http://www.devkitpro.org/) was used to build
+The Homebrew Channel and the HackMii Installer.
+
+---
+
+libogc: The Homebrew Channel, HackMii Installer
+Copyright (C) 2004 - 2010
+Michael Wiedenbauer (shagkur)
+Dave Murphy (WinterMute)
+
+This software is provided 'as-is', without any express or implied
+warranty.  In no event will the authors be held liable for any
+damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any
+purpose, including commercial applications, and to alter it and
+redistribute it freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you
+   must not claim that you wrote the original software. If you use
+   this software in a product, an acknowledgment in the product
+   documentation would be appreciated but is not required.
+2. Altered source versions must be plainly marked as such, and
+   must not be misrepresented as being the original software.
+3. This notice may not be removed or altered from any source
+   distribution.
+
+---
+
+wiiuse is used under license as part of libogc; see
+http://devkitpro.svn.sourceforge.net/viewvc/devkitpro/trunk/libogc/wiiuse/license_libogc.txt.
+
+---
+
+libfat: The Homebrew Channel, HackMii Installer
+
+Copyright (c) 2006 Michael "Chishm" Chisholm
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. The name of the author may not be used to endorse or promote products
+   derived from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+  IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+  WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+  ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+  DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+  DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+  GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER
+  IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+  IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+---
+
+elm-chan FAT filesystem code R0.07: BootMii stub, mini
+
+FatFs module is an open source project to implement FAT file system to small
+embedded systems. It is opened for education, research and development under
+license policy of following trems.
+
+  Copyright (C) 2009, ChaN, all right reserved.
+
+The FatFs module is a free software and there is no warranty.
+You can use, modify and/or redistribute it for personal, non-profit or
+commercial use without any restriction under your responsibility.
+Redistributions of source code must retain the above copyright notice.
+
+original source: http://elm-chan.org/fsw/ff/00index_e.html
+
+---
+
+SDHC driver (based on the FreeBSD driver): BootMii stub, mini
+
+Copyright (c) 2006 Uwe Stuehler <uwe@openbsd.org>
+
+Permission to use, copy, modify, and distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL
+WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL
+DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR
+PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+---
+
+printf implementation: BootMii Shell, mini
+
+Copyright (c) 1995 Patrick Powell.
+
+This code is based on code written by Patrick Powell <papowell@astart.com>.
+It may be used for any purpose as long as this notice remains intact on all
+source code distributions.
+
+Copyright (c) 2008 Holger Weiss.
+
+This version of the code is maintained by Holger Weiss <holger@jhweiss.de>.
+My changes to the code may freely be used, modified and/or redistributed for
+any purpose.  It would be nice if additions and fixes to this file (including
+trivial code cleanups) would be sent back in order to let me include them in
+the version available at <http://www.jhweiss.de/software/snprintf.html>.
+However, this is not a requirement for using or redistributing (possibly
+modified) versions of this file, nor is leaving this notice intact mandatory.
+
+---
+
+"dlmalloc" malloc implementation: BootMii shell, mini
+
+This is a version (aka dlmalloc) of malloc/free/realloc written by
+Doug Lea and released to the public domain, as explained at
+http://creativecommons.org/licenses/publicdomain.  Send questions,
+comments, complaints, performance data, etc to dl@cs.oswego.edu
+
+Version 2.8.3 Thu Sep 22 11:16:15 2005  Doug Lea  (dl at gee)
+ftp://gee.cs.oswego.edu/pub/misc/malloc.c
+
+---
+
+string functions: BootMii stub, BootMii shell, mini
+
+Portions taken from the Public Domain C Library (PDCLib).
+https://negix.net/trac/pdclib
+
+---
+
+Low-level video routines: BootMii shell
+
+Some routines and initialization constants originally came from the
+"GAMECUBE LOW LEVEL INFO" document and sourcecode released by Titanik
+of Crazy Nation and the GC Linux project.
+
+---
+
+low-level C runtime code for PowerPC: BootMii shell
+# crt0.s file for the GameCube V1.0 by Costis (costis@gbaemu.com)!
+
+---
+
+ggets: The Homebrew Channel
+File ggets.c  - goodgets is a safe alternative to gets by C.B. Falconer.
+Public domain 2002-06-22, attribution appreciated.
+
+---
+
+ELF loader code: The Homebrew Channel, BootMii stub, BootMii shell, mini
+
+Copyright (c) 1995, 1996, 2001, 2002
+Erik Theisen.  All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+3. The name of the author may not be used to endorse or promote products
+   derived from this software without specific prior written permission
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+---
+
+Mini-XML: Lightweight XML Library: The Homebrew Channel
+Copyright 2003-2009 by Michael Sweet.
+see http://www.minixml.org/
+
+The Mini-XML library and included programs are provided under the terms of the GNU Library General Public License (LGPL) with the following exceptions:
+
+   1. Static linking of applications to the Mini-XML library does not constitute a derivative work and does not require the author to provide source code for the application, use the shared Mini-XML libraries, or link their applications against a user-supplied version of Mini-XML.
+
+      If you link the application to a modified version of Mini-XML, then the changes to Mini-XML must be provided under the terms of the LGPL in sections 1, 2, and 4.
+   2. You do not have to provide a copy of the Mini-XML license with programs that are linked to the Mini-XML library, nor do you have to identify the Mini-XML license in your program or documentation as required by section 6 of the LGPL.
+
+---
+
+zlib:  The Homebrew Channel
+
+ (C) 1995-2010 Jean-loup Gailly and Mark Adler
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the authors be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+  Jean-loup Gailly        Mark Adler
+  jloup@gzip.org          madler@alumni.caltech.edu
+
+If you use the zlib library in a product, we would appreciate *not* receiving
+lengthy legal documents to sign.  The sources are provided for free but without
+warranty of any kind.  The library has been entirely written by Jean-loup
+Gailly and Mark Adler; it does not include third-party code.
+
+If you redistribute modified sources, we would appreciate that you include in
+the file ChangeLog history information documenting your changes.  Please read
+the FAQ for more information on the distribution of modified source versions.
+
+---
+
+libpng: The Homebrew Channel
+
+This code is released under the libpng license.
+
+libpng versions 1.2.6, August 15, 2004, through 1.5.4, July 7, 2011, are
+Copyright (c) 2004, 2006-2011 Glenn Randers-Pehrson, and are
+distributed according to the same disclaimer and license as libpng-1.2.5
+with the following individual added to the list of Contributing Authors
+
+   Cosmin Truta
+
+libpng versions 1.0.7, July 1, 2000, through 1.2.5 - October 3, 2002, are
+Copyright (c) 2000-2002 Glenn Randers-Pehrson, and are
+distributed according to the same disclaimer and license as libpng-1.0.6
+with the following individuals added to the list of Contributing Authors
+
+   Simon-Pierre Cadieux
+   Eric S. Raymond
+   Gilles Vollant
+
+and with the following additions to the disclaimer:
+
+   There is no warranty against interference with your enjoyment of the
+   library or against infringement.  There is no warranty that our
+   efforts or the library will fulfill any of your particular purposes
+   or needs.  This library is provided with all faults, and the entire
+   risk of satisfactory quality, performance, accuracy, and effort is with
+   the user.
+
+libpng versions 0.97, January 1998, through 1.0.6, March 20, 2000, are
+Copyright (c) 1998, 1999 Glenn Randers-Pehrson, and are
+distributed according to the same disclaimer and license as libpng-0.96,
+with the following individuals added to the list of Contributing Authors:
+
+   Tom Lane
+   Glenn Randers-Pehrson
+   Willem van Schaik
+
+libpng versions 0.89, June 1996, through 0.96, May 1997, are
+Copyright (c) 1996, 1997 Andreas Dilger
+Distributed according to the same disclaimer and license as libpng-0.88,
+with the following individuals added to the list of Contributing Authors:
+
+   John Bowler
+   Kevin Bracey
+   Sam Bushell
+   Magnus Holmgren
+   Greg Roelofs
+   Tom Tanner
+
+libpng versions 0.5, May 1995, through 0.88, January 1996, are
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+
+For the purposes of this copyright and license, "Contributing Authors"
+is defined as the following set of individuals:
+
+   Andreas Dilger
+   Dave Martindale
+   Guy Eric Schalnat
+   Paul Schmidt
+   Tim Wegner
+
+The PNG Reference Library is supplied "AS IS".  The Contributing Authors
+and Group 42, Inc. disclaim all warranties, expressed or implied,
+including, without limitation, the warranties of merchantability and of
+fitness for any purpose.  The Contributing Authors and Group 42, Inc.
+assume no liability for direct, indirect, incidental, special, exemplary,
+or consequential damages, which may result from the use of the PNG
+Reference Library, even if advised of the possibility of such damage.
+
+Permission is hereby granted to use, copy, modify, and distribute this
+source code, or portions hereof, for any purpose, without fee, subject
+to the following restrictions:
+
+1. The origin of this source code must not be misrepresented.
+
+2. Altered versions must be plainly marked as such and must not
+   be misrepresented as being the original source.
+
+3. This Copyright notice may not be removed or altered from any
+   source or altered source distribution.
+
+The Contributing Authors and Group 42, Inc. specifically permit, without
+fee, and encourage the use of this source code as a component to
+supporting the PNG file format in commercial products.  If you use this
+source code in a product, acknowledgment is not required but would be
+appreciated.
+
+
+A "png_get_copyright" function is available, for convenient use in "about"
+boxes and the like:
+
+   printf("%s",png_get_copyright(NULL));
+
+Also, the PNG logo (in PNG format, of course) is supplied in the
+files "pngbar.png" and "pngbar.jpg (88x31) and "pngnow.png" (98x31).
+
+Libpng is OSI Certified Open Source Software.  OSI Certified Open Source is a
+certification mark of the Open Source Initiative.
+
+Glenn Randers-Pehrson
+glennrp at users.sourceforge.net
+June 26, 2010
+
+---
+
+freetype 2: The Homebrew Channel
+
+Portions of this software are copyright (c) 2002-2011 The FreeType
+Project (www.freetype.org).  All rights reserved.
+
+http://www.freetype.org
+
+---
+
+Droid Sans and Droid Sans Bold fonts: The Homebrew Channel
+
+Copyright (C) 2008 The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+This license is also included at licenses/APACHE-2.0.txt
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+

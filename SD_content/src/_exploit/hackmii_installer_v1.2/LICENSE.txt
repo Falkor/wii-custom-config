@@ -1,0 +1,46 @@
+The HackMii Installer is
+Copyright (C) 2007-2012	"Team Twiizers"
+Copyright (C) 2008-2012	Hector Martin "marcan" <marcan@marcansoft.com>
+Copyright (C) 2008-2010	Haxx Enterprises <bushing@gmail.com>
+Copyright (C) 2008-2011	Sven Peter <svenpeter@gmail.com>
+Copyright (C) 2008-2012	Andre Heider "dhewg" <dhewg@wiibrew.org>
+Copyright (C) 2009		John Kelley <wiidev@kelley.ca>
+Graphics  (C) 2009,2010	Freddy Leitner <www.dreamer.de>
+
+All rights reserved.  You may not sell or redistribute this software.
+The latest version will always be available for free download from
+http://bootmii.org.
+
+
+BootMii is
+Copyright (C) 2007-2012	"Team Twiizers"
+Copyright (C) 2008-2012	Hector Martin "marcan" <marcan@marcansoft.com>
+Copyright (C) 2008-2010	Haxx Enterprises <bushing@gmail.com>
+Copyright (C) 2008-2010	Sven Peter <svenpeter@gmail.com>
+Copyright (C) 2009		bLAStY <blasty@bootmii.org>
+Copyright (C) 2009-2012	Andre Heider "dhewg" <dhewg@wiibrew.org>
+Copyright (C) 2009		John Kelley <wiidev@kelley.ca>
+Graphics  (C) 2009-2010	Freddy Leitner <www.dreamer.de>
+
+All rights reserved.  You may not sell or redistribute this software.
+The latest version will always be available for free download from
+http://bootmii.org.  Portions of this software may be available separately
+under more-permissive licenses.
+
+
+The Homebrew Channel is
+Copyright (C) 2007-2012	"Team Twiizers"
+Copyright (C) 2008,2009	bLAStY <blasty@bootmii.org>
+Copyright (C) 2008-2012	Andre Heider "dhewg" <dhewg@wiibrew.org>
+Copyright (C) 2008-2012	Hector Martin "marcan" <marcan@marcansoft.com>
+Copyright (C) 2008,2009	Haxx Enterprises <bushing@gmail.com>
+Copyright (C) 2008-2011	Sven Peter <svenpeter@gmail.com>
+Graphics  (C) 2008-2010	Freddy Leitner <www.dreamer.de>
+
+All rights reserved.  You may not sell or redistribute this software.
+The latest version will always be available for free download from
+http://hbc.hackmii.com.
+
+See the CREDITS.txt file and the licenses/ directory for licensing
+information for third-party libraries and software.
+
