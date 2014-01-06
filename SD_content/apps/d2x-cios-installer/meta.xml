@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<app version="1">
+	<name>d2x cIOS installer</name>
+	<coder>dragbe</coder>
+	<short_description>Custom IOS installer</short_description>
+	<long_description>Official Homebrew to install d2x cIOS maintained by davebaol, xabby666 and XFlak.</long_description>
+	<arguments>
+		<arg>--remove-cache</arg>
+	</arguments>
+	<no_ios_reload/>
+	<version>3.1</version>
+	<release_date>20110925081828</release_date>
+</app>
