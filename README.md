@@ -9,6 +9,7 @@ Copyright (c) 2014 [Sebastien Varrette](mailto:<Sebastien.Varrette@uni.lu>) [www
 # Wii Custom Softmod Configuration
 
 This repository hosts personal notes on the soft-mod configuration of my Wii. 
+
 You might want to take a look at the
 [Glossary](http://wiibrew.org/wiki/Glossary) to better catch the terms used in
 this file. 
@@ -188,7 +189,11 @@ USB loaders allow you to rip your own discs to an external USB hard drive and th
 
 Several choices are possible: 
 
-* [USB Loader GX](https://code.google.com/p/usbloader-gui/)
+* [WiiFlow](https://sites.google.com/site/completesg/backup-launchers/usb/wiiflow) -- [download](https://code.google.com/p/wiiflow/downloads/list)
+
+  ![](https://sites.google.com/site/completesg/_/rsrc/1365270781656/backup-launchers/usb/WiiFlow.png?height=100&width=140)
+
+* [USB Loader GX](https://code.google.com/p/usbloader-gui/) - [Instructions](https://code.google.com/p/usbloader-gui/wiki/Installation)
 
   ![USB Loader GX](https://sites.google.com/site/completesg/_/rsrc/1365269973627/backup-launchers/usb/USBGX.png?height=100&width=140)
 
@@ -196,34 +201,41 @@ Several choices are possible:
 
   ![Configurable USB Loader](https://sites.google.com/site/completesg/_/rsrc/1365270262391/backup-launchers/usb/ConfigUSB.jpg?height=100&width=140)
 
-* [WiiFlow](https://sites.google.com/site/completesg/backup-launchers/usb/wiiflow) -- [download](https://code.google.com/p/wiiflow/downloads/list)
+The one that works for me is [WiiFlow](https://sites.google.com/site/completesg/backup-launchers/usb/wiiflow)
 
-  ![](https://sites.google.com/site/completesg/_/rsrc/1365270781656/backup-launchers/usb/WiiFlow.png?height=100&width=140)
 
-### Installing USB loader GX
 
-[Instructions](https://code.google.com/p/usbloader-gui/wiki/Installation)
+
+### Offline access to covers
 
 For offline access to the covers, get the covers from <http://www.gametdb.com/Wii/Downloads>. 
 
+**TODO**
 
 
-## Preparing game backup
+## Preparing game backup on USB stick
 
-
-
-
-… Or how to add ISO of backup games on a USB stick. 
+… Or how to add ISO of **your** backup games on a USB stick. 
 
 Resources: 
 
 * [WiiAddict](http://www.wii-addict.fr/forum/lofiversion/index.php/t28067.html)
 
+Download [WitGUI](http://desairem.altervista.org/witgui/wordpress/category/download/) and open it.
 
-Download [Wit](http://wit.wiimm.de/download.html#os-mac]
-Download [WitGUI](http://desairem.altervista.org/witgui/wordpress/category/download/)
+![WitGui](http://img707.imageshack.us/img707/4523/witgui1.png)
 
-To transfer a game: 
+To transfer a game on a USB stick formatted in NTFS: 
+
+1. click on Folder and select the source directory hosting the ISO of you rbackup game
+2. click on Floder again and select the destination folder (the `wbfs` folder eventually created at the root of your USB stick)
+3. drag and drop the game onto the second window to convert the ISO toward a `.wbfs` file.
+4. on the configuration panel: 
+   * "Save as": `+ <title> { <id> }` 
+   * "Format" :  use **wbfs**
+   * "Split   :  **Don't** (not required as you use the NTFS file system)  
+![](http://img268.imageshack.us/img268/6492/witgui3b.png)
+5. click on `Save`
 
 
 ## FAQ Apps
@@ -236,5 +248,5 @@ AnyRegion Changer is an application which allows you to make non-temporary chang
 
 ### New Super Mario Bros
 
-You can download the complementary [`Newer Super Mario Bros`](http://newerteam.com/), a full unofficial sequel to New Super Mario Bros
+You can download the complementary [`Newer Super Mario Bros`](http://newerteam.com/), a full unofficial sequel to New Super Mario Bros. 
 
