@@ -1,0 +1,61 @@
+longname Jyanshin Densetsu - Quest of Jongmaster
+#mame set of janshin
+game janshin MVS "Jyanshin Densetsu - Quest of Jongmaster"
+CPU 0x100000
+048-p1.bin 0x0 0x100000 NORM
+END
+SFIX 0x20000
+048-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x10000
+048-m1.bin 0x0 0x10000 NORM
+END
+SOUND1 0x200000
+048-v1.bin 0x0 0x200000 NORM
+END
+GFX 0x400000
+048-c1.bin 0x0 0x200000 ALTERNATE
+048-c2.bin 0x1 0x200000 ALTERNATE
+END
+END
+
+#mame set of  janshin 
+game  janshin  MVS "Jyanshin Densetsu - Quest of Jongmaster"
+CPU 0x100000
+jans-p1.bin 0x0 0x100000 NORM
+END
+SFIX 0x20000
+048-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x10000
+048-m1.bin 0x0 0x10000 NORM
+END
+SOUND1 0x200000
+048-v1.bin 0x0 0x200000 NORM
+END
+GFX 0x400000
+048-c1.bin 0x0 0x200000 ALTERNATE
+048-c2.bin 0x1 0x200000 ALTERNATE
+END
+END
+
+#old mame set of janshin
+game janshin MVS "Jyanshin Densetsu - Quest of Jongmaster"
+CPU 0x100000
+jans-p1.rom 0x0 0x100000 NORM
+END
+SFIX 0x20000
+jans-s1.rom 0x0 0x20000 NORM
+END
+SM1 0x10000
+jans-m1.rom 0x0 0x10000 NORM
+END
+SOUND1 0x200000
+jans-v1.rom 0x0 0x200000 NORM
+END
+GFX 0x400000
+jans-c1.rom 0x0 0x200000 ALTERNATE
+jans-c2.rom 0x1 0x200000 ALTERNATE
+END
+END
+

@@ -1,0 +1,41 @@
+longname Magical Drop II
+#mame set of  magdrop2 
+game  magdrop2  MVS "Magical Drop II"
+CPU 0x100000
+221-p1.bin 0x0 0x80000 NORM
+END
+SFIX 0x20000
+221-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x20000
+221-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+221-v1.bin 0x0 0x200000 NORM
+END
+GFX 0x800000
+221-c1.bin 0x0 0x400000 ALTERNATE
+221-c2.bin 0x1 0x400000 ALTERNATE
+END
+END
+
+#old mame set of magdrop2
+game magdrop2 MVS "Magical Drop II"
+CPU 0x100000
+drop2_p1.rom 0x0 0x80000 NORM
+END
+SFIX 0x20000
+drop2_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+drop2_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+drop2_v1.rom 0x0 0x200000 NORM
+END
+GFX 0x800000
+drop2_c1.rom 0x0 0x400000 ALTERNATE
+drop2_c2.rom 0x1 0x400000 ALTERNATE
+END
+END
+

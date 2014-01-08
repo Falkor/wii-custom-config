@@ -1,0 +1,41 @@
+longname Gururin
+#mame set of  gururin 
+game  gururin  MVS "Gururin"
+CPU 0x100000
+067-p1.bin 0x0 0x80000 NORM
+END
+SFIX 0x20000
+067-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x10000
+067-m1.bin 0x0 0x10000 NORM
+END
+SOUND1 0x80000
+067-v1.bin 0x0 0x80000 NORM
+END
+GFX 0x400000
+067-c1.bin 0x0 0x200000 ALTERNATE
+067-c2.bin 0x1 0x200000 ALTERNATE
+END
+END
+
+#old mame set of gururin
+game gururin MVS "Gururin"
+CPU 0x100000
+gurin_p1.rom 0x0 0x80000 NORM
+END
+SFIX 0x20000
+gurin_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x10000
+gurin_m1.rom 0x0 0x10000 NORM
+END
+SOUND1 0x80000
+gurin_v1.rom 0x0 0x80000 NORM
+END
+GFX 0x400000
+gurin_c1.rom 0x0 0x200000 ALTERNATE
+gurin_c2.rom 0x1 0x200000 ALTERNATE
+END
+END
+

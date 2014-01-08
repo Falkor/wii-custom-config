@@ -1,0 +1,45 @@
+longname Captain Tomaday
+#mame set of  ctomaday 
+game  ctomaday  MVS "Captain Tomaday"
+CPU 0x200000
+249-p1.bin 0x100000 0x100000 NORM
+- 0x0 0x100000 NORM
+END
+SFIX 0x20000
+249-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x20000
+249-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x500000
+249-v1.bin 0x0 0x400000 NORM
+249-v2.bin 0x400000 0x100000 NORM
+END
+GFX 0x800000
+249-c1.bin 0x0 0x400000 ALTERNATE
+249-c2.bin 0x1 0x400000 ALTERNATE
+END
+END
+
+#old mame set of ctomaday
+game ctomaday MVS "Captain Tomaday"
+CPU 0x200000
+ctom_p1.rom 0x100000 0x100000 NORM
+- 0x0 0x100000 NORM
+END
+SFIX 0x20000
+ctom_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+ctom_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x500000
+ctom_v1.rom 0x0 0x400000 NORM
+ctom_v2.rom 0x400000 0x100000 NORM
+END
+GFX 0x800000
+ctom_c1.rom 0x0 0x400000 ALTERNATE
+ctom_c2.rom 0x1 0x400000 ALTERNATE
+END
+END
+

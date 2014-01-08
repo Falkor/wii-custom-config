@@ -1,0 +1,47 @@
+longname Super Sidekicks 2 - The World Championship / Tokuten Ou 2 - real fight football
+#mame set of  ssideki2 
+game  ssideki2  MVS "Super Sidekicks 2 - The World Championship / Tokuten Ou 2 - real fight football"
+CPU 0x100000
+061-p1.bin 0x0 0x100000 NORM
+END
+SFIX 0x20000
+061-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x20000
+061-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x400000
+061-v1.bin 0x0 0x200000 NORM
+061-v2.bin 0x200000 0x200000 NORM
+END
+GFX 0x800000
+061-c1.bin 0x0 0x200000 ALTERNATE
+061-c2.bin 0x1 0x200000 ALTERNATE
+061-c3.bin 0x400000 0x200000 ALTERNATE
+061-c4.bin 0x400001 0x200000 ALTERNATE
+END
+END
+
+#old mame set of ssideki2
+game ssideki2 MVS "Super Sidekicks 2 - The World Championship / Tokuten Ou 2 - real fight football"
+CPU 0x100000
+kick2_p1.rom 0x0 0x100000 NORM
+END
+SFIX 0x20000
+kick2_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+kick2_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x400000
+kick2_v1.rom 0x0 0x200000 NORM
+kick2_v2.rom 0x200000 0x200000 NORM
+END
+GFX 0x800000
+kick2_c1.rom 0x0 0x200000 ALTERNATE
+kick2_c2.rom 0x1 0x200000 ALTERNATE
+kick2_c3.rom 0x400000 0x200000 ALTERNATE
+kick2_c4.rom 0x400001 0x200000 ALTERNATE
+END
+END
+

@@ -1,0 +1,47 @@
+longname Puzzled / Joy Joy Kid
+#mame set of  joyjoy 
+game  joyjoy  MVS "Puzzled / Joy Joy Kid"
+CPU 0x100000
+021-p1.bin 0x0 0x80000 NORM
+END
+SFIX 0x20000
+021-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x10000
+021-m1.bin 0x0 0x10000 NORM
+END
+SOUND1 0x80000
+021-v1.bin 0x0 0x80000 NORM
+END
+SOUND2 0x80000
+021-v2.bin 0x0 0x80000 NORM
+END
+GFX 0x100000
+021-c1.bin 0x0 0x80000 ALTERNATE
+021-c2.bin 0x1 0x80000 ALTERNATE
+END
+END
+
+#old mame set of joyjoy
+game joyjoy MVS "Puzzled / Joy Joy Kid"
+CPU 0x100000
+joy_p1.rom 0x0 0x80000 NORM
+END
+SFIX 0x20000
+joy_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x10000
+joy_m1.rom 0x0 0x10000 NORM
+END
+SOUND1 0x80000
+joy_v1.rom 0x0 0x80000 NORM
+END
+SOUND2 0x80000
+joy_v2.rom 0x0 0x80000 NORM
+END
+GFX 0x100000
+joy_c1.rom 0x0 0x80000 ALTERNATE
+joy_c2.rom 0x1 0x80000 ALTERNATE
+END
+END
+

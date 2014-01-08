@@ -1,0 +1,41 @@
+longname Neo Mr. Do!
+#mame set of  neomrdo 
+game  neomrdo  MVS "Neo Mr. Do!"
+CPU 0x100000
+207-p1.bin 0x0 0x80000 NORM
+END
+SFIX 0x10000
+207-s1.bin 0x0 0x10000 NORM
+END
+SM1 0x20000
+207-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+207-v1.bin 0x0 0x200000 NORM
+END
+GFX 0x400000
+207-c1.bin 0x0 0x200000 ALTERNATE
+207-c2.bin 0x1 0x200000 ALTERNATE
+END
+END
+
+#old mame set of neomrdo
+game neomrdo MVS "Neo Mr. Do!"
+CPU 0x100000
+neomd-p1.rom 0x0 0x80000 NORM
+END
+SFIX 0x10000
+neomd-s1.rom 0x0 0x10000 NORM
+END
+SM1 0x20000
+neomd-m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+neomd-v1.rom 0x0 0x200000 NORM
+END
+GFX 0x400000
+neomd-c1.rom 0x0 0x200000 ALTERNATE
+neomd-c2.rom 0x1 0x200000 ALTERNATE
+END
+END
+

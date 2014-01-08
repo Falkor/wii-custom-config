@@ -1,0 +1,49 @@
+longname Karnov's Revenge / Fighter's History Dynamite
+#mame set of  karnovr 
+game  karnovr  MVS "Karnov's Revenge / Fighter's History Dynamite"
+CPU 0x100000
+066-p1.bin 0x0 0x100000 NORM
+END
+SFIX 0x20000
+066-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x20000
+066-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+066-v1.bin 0x0 0x200000 NORM
+END
+GFX 0xc00000
+066-c1.bin 0x0 0x200000 ALTERNATE
+066-c2.bin 0x1 0x200000 ALTERNATE
+066-c3.bin 0x400000 0x200000 ALTERNATE
+066-c4.bin 0x400001 0x200000 ALTERNATE
+066-c5.bin 0x800000 0x200000 ALTERNATE
+066-c6.bin 0x800001 0x200000 ALTERNATE
+END
+END
+
+#old mame set of karnovr
+game karnovr MVS "Karnov's Revenge / Fighter's History Dynamite"
+CPU 0x100000
+karev_p1.rom 0x0 0x100000 NORM
+END
+SFIX 0x20000
+karev_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+karev_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+karev_v1.rom 0x0 0x200000 NORM
+END
+GFX 0xc00000
+karev_c1.rom 0x0 0x200000 ALTERNATE
+karev_c2.rom 0x1 0x200000 ALTERNATE
+karev_c3.rom 0x400000 0x200000 ALTERNATE
+karev_c4.rom 0x400001 0x200000 ALTERNATE
+karev_c5.rom 0x800000 0x200000 ALTERNATE
+karev_c6.rom 0x800001 0x200000 ALTERNATE
+END
+END
+

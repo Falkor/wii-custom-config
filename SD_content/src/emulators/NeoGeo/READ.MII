@@ -1,0 +1,98 @@
+/************************************************************
+ * GxGeo                                                    *
+ *   by Blizzo                                              *
+ ************************************************************/
+ 
+-[ INTRO ]-
+
+  This is GxGeo 0.5 >= VERSION <= 1.0.
+  The controls method have changed - see /gxgeo/confg/gngeorc
+  for more details.
+  
+-[ THANKS TO ]-
+
+  Pepone      for gngeo & testing :D
+  djdynamite  for testing :]
+  softdev     for GX scaling stuff :)
+  you         for helping me take over the world...
+  
+
+-[ SOURCE CODE ]-
+
+  I'd rather not release messy source code with probably more 
+  than a few mistakes in it, but if you you'd like it drop me
+  a line on:
+    http://wiinewz.com/forums/members/blizzo.html or
+    http://gbatemp.net/index.php?showuser=142966&CODE=1337 or
+    http://www.dcemu.co.uk/vbulletin/member.php?u=39336648 or
+    email me at Z3hnZW9AYmVhcmR5bWF0dC5jby51ayA= ;)
+    
+ 
+-[ INSTALLATION ]-
+
+  Extract the zip on to your SD card :
+    /sd/apps/gxgeo
+    /sd/gxgeo/conf
+    /sd/gxgeo/romrc
+    /sd/gxgeo/roms
+    /sd/gxgeo/save
+
+  The romrc contains information about ROM sets, if you only 
+  put the .rc files for the ROMs you have in that folder gxgeo
+  will load faster :)
+    
+  Your ROMs (zipped) and BIOS (unzipped) files should go in /sd/gxgeo/roms
+  
+    |---------------------------------------------------------|
+    |  FILE NAME (Required)   ||  AKA**         ||  CRC32     |
+    |-------------------------------------------||------------|
+    |   000-lo.lo             ||   ng-lo.rom    ||  E09E253C  |
+    |   sfix.sfx              ||   ng-sfix.rom  ||  354029FC  |
+    |---------------------------------------------------------|
+    | COUNTRY FILES (Atleast one required)                    |
+    |---------------------------------------------------------|
+    |  usa_2slt.bin (USA)     ||   neo-geo.rom  ||  E72943DE  |
+    |  vs-bios.rom  (Japan)   ||   neo-geo.rom  ||  F0E8F27D  |
+    |  asia-s3.rom  (Asia)    ||   neo-geo.rom  ||  91B64BE3  |
+    |  sp-s2.sp1    (Europe)  ||   neo-geo.rom  ||  C7F2FA45  |
+    |---------------------------------------------------------|
+    | SYSTEM FILES (Optional)                                 |
+    |---------------------------------------------------------|
+    |  aes-bios.bin (A.E.S)   ||                ||  UNTESTED  | 
+    |  uni-bios.rom (UniBIOS) ||                ||  27664EB5  |
+    |---------------------------------------------------------|
+    
+  **Some times the files have different names, so you have to
+    rename them to match the names on the left.
+    
+    
+-[ CONTROLS ]-
+
+  You can use any of the following:
+    Wiimote sideways
+    Wiimote + Nunchuck
+    Classic Controller
+    Gamecube Controller
+
+  The quit button returns you to the ROM list.
+  
+  The wiimotes are the default controls, if you would like to use
+  the game cube controller see the /gxgeo/conf/gngeorc file
+  
+  |------------------------------------------------------|
+  | NeoGeo || Wiimote  | Wiimote  | Classic    | GC  PAD |
+  |        || Sideways | Nunchuck | Controller |         |
+  |------------------------------------------------------|
+  | A      || 1        | A        | A          | B       |
+  | B      || 2        | B        | B          | A       |
+  | C      || A        | Z        | X          | X       |
+  | D      || B        | C        | Y          | Y       |
+  | UP     || UP       | UP       | UP         | UP      |
+  | DOWN   || DOWN     | DOWN     | DOWN       | DOWN    |
+  | LEFT   || LEFT     | LEFT     | LEFT       | LEFT    |
+  | RIGHT  || RIGHT    | RIGHT    | RIGHT      | RIGHT   |
+  | COIN   || MINUS    | MINUS    | MINUS      | Z       |
+  | START  || PLUS     | PLUS     | PLUS       | START   |
+  |--------||----------|----------|------------|---------|
+  | QUIT   || HOME     | HOME     | HOME       | LT + RT |
+  |------------------------------------------------------|

@@ -1,0 +1,55 @@
+longname Super Sidekicks 3 - The Next Glory / Tokuten Ou 3 - eikoue no michi
+#mame set of  ssideki3 
+game  ssideki3  MVS "Super Sidekicks 3 - The Next Glory / Tokuten Ou 3 - eikoue no michi"
+CPU 0x200000
+081-p1.bin 0x100000 0x100000 NORM
+- 0x0 0x100000 NORM
+END
+SFIX 0x20000
+081-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x20000
+081-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x600000
+081-v1.bin 0x0 0x200000 NORM
+081-v2.bin 0x200000 0x200000 NORM
+081-v3.bin 0x400000 0x200000 NORM
+END
+GFX 0xc00000
+081-c1.bin 0x0 0x200000 ALTERNATE
+081-c2.bin 0x1 0x200000 ALTERNATE
+081-c3.bin 0x400000 0x200000 ALTERNATE
+081-c4.bin 0x400001 0x200000 ALTERNATE
+081-c5.bin 0x800000 0x200000 ALTERNATE
+081-c6.bin 0x800001 0x200000 ALTERNATE
+END
+END
+
+#old mame set of ssideki3
+game ssideki3 MVS "Super Sidekicks 3 - The Next Glory / Tokuten Ou 3 - eikoue no michi"
+CPU 0x200000
+side3_p1.rom 0x100000 0x100000 NORM
+- 0x0 0x100000 NORM
+END
+SFIX 0x20000
+side3_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+side3_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x600000
+side3_v1.rom 0x0 0x200000 NORM
+side3_v2.rom 0x200000 0x200000 NORM
+side3_v3.rom 0x400000 0x200000 NORM
+END
+GFX 0xc00000
+side3_c1.rom 0x0 0x200000 ALTERNATE
+side3_c2.rom 0x1 0x200000 ALTERNATE
+side3_c3.rom 0x400000 0x200000 ALTERNATE
+side3_c4.rom 0x400001 0x200000 ALTERNATE
+side3_c5.rom 0x800000 0x200000 ALTERNATE
+side3_c6.rom 0x800001 0x200000 ALTERNATE
+END
+END
+

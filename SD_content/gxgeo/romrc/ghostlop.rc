@@ -1,0 +1,21 @@
+longname ghostlop
+#mame set of ghostlop
+game ghostlop MVS "ghostlop"
+CPU 0x200000
+gl-p1.rom 0x0 0x100000 NORM
+END
+SFIX 0x20000
+gl-s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+gl-m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+gl-v1.rom 0x0 0x200000 NORM
+END
+GFX 0x800000
+gl-c1.rom 0x0 0x400000 ALTERNATE
+gl-c2.rom 0x1 0x400000 ALTERNATE
+END
+END
+

@@ -1,0 +1,45 @@
+longname NeoGeo Cup '98 - The Road to the Victory
+#mame set of  neocup98 
+game  neocup98  MVS "Neo-Geo Cup '98 - The Road to the Victory"
+CPU 0x200000
+244-p1.bin 0x100000 0x100000 NORM
+- 0x0 0x100000 NORM
+END
+SFIX 0x20000
+244-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x20000
+244-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x600000
+244-v1.bin 0x0 0x400000 NORM
+244-v2.bin 0x400000 0x200000 NORM
+END
+GFX 0x1000000
+244-c1.bin 0x0 0x800000 ALTERNATE
+244-c2.bin 0x1 0x800000 ALTERNATE
+END
+END
+
+#old mame set of neocup98
+game neocup98 MVS "Neo-Geo Cup '98 - The Road to the Victory"
+CPU 0x200000
+nc98_p1.rom 0x100000 0x100000 NORM
+- 0x0 0x100000 NORM
+END
+SFIX 0x20000
+nc98_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+nc98_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x600000
+nc98_v1.rom 0x0 0x400000 NORM
+nc98_v2.rom 0x400000 0x200000 NORM
+END
+GFX 0x1000000
+nc98_c1.rom 0x0 0x800000 ALTERNATE
+nc98_c2.rom 0x1 0x800000 ALTERNATE
+END
+END
+

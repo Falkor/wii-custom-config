@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+	<name>MAME Wii</name>
+	<coder>Toad King + MAME Team</coder>
+	<version>1.0 (MAME 0.134u4)</version>
+	<release_date>20111213</release_date>
+	<short_description>Arcade Emulation</short_description>
+	<long_description>This is a port of MAME for the Wii. Unlike the previous SDL MAME for the Wii, this is not based on Wii Linux. Please note that although many games work well with the emulator, others may not work at all. Please read the README for details.</long_description>
+	<no_ios_reload/>
+</app>

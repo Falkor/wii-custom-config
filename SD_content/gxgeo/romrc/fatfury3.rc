@@ -1,0 +1,59 @@
+longname Fatal Fury 3 - Road to the Final Victory / Garou Densetsu 3 - haruka-naru tatakai
+#mame set of  fatfury3 
+game  fatfury3  MVS "Fatal Fury 3 - Road to the Final Victory / Garou Densetsu 3 - haruka-naru tatakai"
+CPU 0x300000
+069-p1.bin 0x0 0x100000 NORM
+069-p2.bin 0x100000 0x200000 NORM
+END
+SFIX 0x20000
+069-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x20000
+069-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0xa00000
+069-v1.bin 0x0 0x400000 NORM
+069-v2.bin 0x400000 0x400000 NORM
+069-v3.bin 0x800000 0x200000 NORM
+END
+GFX 0x1400000
+069-c1.bin 0x0 0x400000 ALTERNATE
+069-c2.bin 0x1 0x400000 ALTERNATE
+069-c3.bin 0x800000 0x400000 ALTERNATE
+069-c4.bin 0x800001 0x400000 ALTERNATE
+069-c5.bin 0x1000000 0x200000 ALTERNATE
+069-c6.bin 0x1000001 0x200000 ALTERNATE
+END
+END
+
+#old mame set of fatfury3
+game fatfury3 MVS "Fatal Fury 3 - Road to the Final Victory / Garou Densetsu 3 - haruka-naru tatakai"
+CPU 0x300000
+fury3_p1.rom 0x0 0x100000 NORM
+fury3_p2.rom 0x100000 0x200000 NORM
+END
+SFIX 0x20000
+fury3_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+fury3_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0xa00000
+fury3_v1.rom 0x0 0x400000 NORM
+fury3_v2.rom 0x400000 0x400000 NORM
+fury3_v3.rom 0x800000 0x200000 NORM
+END
+GFX 0x1400000
+fury3_c1.rom 0x400000 0x200000 ALTERNATE
+- 0x0 0x200000 ALTERNATE
+fury3_c2.rom 0x400001 0x200000 ALTERNATE
+- 0x1 0x200000 ALTERNATE
+fury3_c3.rom 0xc00000 0x200000 ALTERNATE
+- 0x800000 0x200000 ALTERNATE
+fury3_c4.rom 0xc00001 0x200000 ALTERNATE
+- 0x800001 0x200000 ALTERNATE
+fury3_c5.rom 0x1000000 0x200000 ALTERNATE
+fury3_c6.rom 0x1000001 0x200000 ALTERNATE
+END
+END
+

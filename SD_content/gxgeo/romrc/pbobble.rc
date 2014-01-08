@@ -1,0 +1,28 @@
+longname Puzzle Bobble / Bust-A-Move (Neo-Geo)
+#old mame set of pbobble
+game pbobble MVS "Puzzle Bobble / Bust-A-Move (Neo-Geo)"
+CPU 0x100000
+puzzb_p1.rom 0x0 0x40000 NORM
+END
+SFIX 0x20000
+puzzb_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x10000
+puzzb_m1.rom 0x0 0x10000 NORM
+END
+SOUND1 0x380000
+puzzb_v1.rom 0x000000 0x100000 NORM
+puzzb_v2.rom 0x100000 0x100000 NORM
+puzzb_v3.rom 0x200000 0x100000 NORM
+puzzb_v4.rom 0x300000 0x80000 NORM
+END
+GFX 0x500000
+puzzb_c1.rom 0x0 0x100000 ALTERNATE
+puzzb_c2.rom 0x1 0x100000 ALTERNATE
+puzzb_c3.rom 0x200000 0x100000 ALTERNATE
+puzzb_c4.rom 0x200001 0x100000 ALTERNATE
+puzzb_c5.rom 0x400000 0x80000 ALTERNATE
+puzzb_c6.rom 0x400001 0x80000 ALTERNATE
+END
+END
+

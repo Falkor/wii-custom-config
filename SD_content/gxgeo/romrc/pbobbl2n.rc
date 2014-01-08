@@ -1,0 +1,47 @@
+longname Puzzle Bobble 2 / Bust-A-Move Again (Neo-Geo)
+#mame set of  pbobbl2n 
+game  pbobbl2n  MVS "Puzzle Bobble 2 / Bust-A-Move Again (Neo-Geo)"
+CPU 0x100000
+248-p1.bin 0x0 0x100000 NORM
+END
+SFIX 0x20000
+248-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x20000
+248-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x800000
+248-v1.bin 0x0 0x400000 NORM
+248-v2.bin 0x400000 0x400000 NORM
+END
+GFX 0xa00000
+248-c1.bin 0x0 0x400000 ALTERNATE
+248-c2.bin 0x1 0x400000 ALTERNATE
+248-c3.bin 0x800000 0x100000 ALTERNATE
+248-c4.bin 0x800001 0x100000 ALTERNATE
+END
+END
+
+#old mame set of pbobbl2n
+game pbobbl2n MVS "Puzzle Bobble 2 / Bust-A-Move Again (Neo-Geo)"
+CPU 0x100000
+pb2_p1.rom 0x0 0x100000 NORM
+END
+SFIX 0x20000
+pb2_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+pb2_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x800000
+pb2_v1.rom 0x0 0x400000 NORM
+pb2_v2.rom 0x400000 0x400000 NORM
+END
+GFX 0xa00000
+pb2_c1.rom 0x0 0x400000 ALTERNATE
+pb2_c2.rom 0x1 0x400000 ALTERNATE
+pb2_c3.rom 0x800000 0x100000 ALTERNATE
+pb2_c4.rom 0x800001 0x100000 ALTERNATE
+END
+END
+

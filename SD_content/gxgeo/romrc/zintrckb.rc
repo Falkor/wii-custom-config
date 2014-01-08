@@ -1,0 +1,21 @@
+longname zintrckb
+#mame set of zintrckb
+game zintrckb MVS "zintrckb"
+CPU 0x100000
+zin_p1.rom 0x0 0x100000 NORM
+END
+SFIX 0x20000
+zin_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+zin_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+zin_v1.rom 0x0 0x200000 NORM
+END
+GFX 0x400000
+zin_c1.rom 0x0 0x200000 ALTERNATE
+zin_c2.rom 0x1 0x200000 ALTERNATE
+END
+END
+

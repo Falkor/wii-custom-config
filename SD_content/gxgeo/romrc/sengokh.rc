@@ -1,0 +1,49 @@
+longname Sengoku / Sengoku Denshou (set 2)
+#mame set of  sengokh 
+game  sengokh  MVS "Sengoku / Sengoku Denshou (set 2)"
+CPU 0x100000
+017-p1h.bin 0x0 0x80000 NORM
+017-p2.bin 0x80000 0x20000 NORM
+END
+SFIX 0x20000
+017-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x20000
+017-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+017-v1.bin 0x0 0x100000 NORM
+017-v2.bin 0x100000 0x100000 NORM
+END
+GFX 0x400000
+017-c1.bin 0x0 0x100000 ALTERNATE
+017-c2.bin 0x1 0x100000 ALTERNATE
+017-c3.bin 0x200000 0x100000 ALTERNATE
+017-c4.bin 0x200001 0x100000 ALTERNATE
+END
+END
+
+#old mame set of sengokh
+game sengokh MVS "Sengoku / Sengoku Denshou (set 2)"
+CPU 0x100000
+sngkh_p1.rom 0x0 0x80000 NORM
+sngku_p2.rom 0x80000 0x20000 NORM
+END
+SFIX 0x20000
+sngku_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+sngku_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+sngku_v1.rom 0x0 0x100000 NORM
+sngku_v2.rom 0x100000 0x100000 NORM
+END
+GFX 0x400000
+sngku_c1.rom 0x0 0x100000 ALTERNATE
+sngku_c2.rom 0x1 0x100000 ALTERNATE
+sngku_c3.rom 0x200000 0x100000 ALTERNATE
+sngku_c4.rom 0x200001 0x100000 ALTERNATE
+END
+END
+

@@ -1,0 +1,73 @@
+longname Super Dodge Ball / Kunio no Nekketsu Toukyuu Densetsu
+#mame set of  sdodgeb 
+game  sdodgeb  MVS "Super Dodge Ball / Kunio no Nekketsu Toukyuu Densetsu"
+CPU 0x200000
+208-p1.bin 0x100000 0x100000 NORM
+- 0x0 0x100000 NORM
+END
+SFIX 0x20000
+208-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x20000
+208-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x400000
+208-v1.bin 0x0 0x200000 NORM
+208-v2.bin 0x200000 0x200000 NORM
+END
+GFX 0xc00000
+208-c1.bin 0x0 0x400000 ALTERNATE
+208-c2.bin 0x1 0x400000 ALTERNATE
+208-c3.bin 0x800000 0x200000 ALTERNATE
+208-c4.bin 0x800001 0x200000 ALTERNATE
+END
+END
+
+#old mame set of sdodgeb
+game sdodgeb MVS "Super Dodge Ball / Kunio no Nekketsu Toukyuu Densetsu"
+CPU 0x200000
+dodge_p1.rom 0x100000 0x100000 NORM
+- 0x0 0x100000 NORM
+END
+SFIX 0x20000
+dodge_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+dodge_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x400000
+dodge_v1.rom 0x0 0x200000 NORM
+dodge_v2.rom 0x200000 0x200000 NORM
+END
+GFX 0xc00000
+dodge_c1.rom 0x0 0x400000 ALTERNATE
+dodge_c2.rom 0x1 0x400000 ALTERNATE
+dodge_c3.rom 0x800000 0x200000 ALTERNATE
+dodge_c4.rom 0x800001 0x200000 ALTERNATE
+END
+END
+
+# alternate romset for Super Dodge Ball
+game sdodgeb MVS "Super Dodge Ball / Kunio no Nekketsu Toukyuu Densetsu"
+CPU 0x200000
+sdb_p1.rom 0x100000 0x100000 NORM
+- 0x0 0x100000 NORM
+END
+SFIX 0x20000
+sdb_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+sdb_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x400000
+sdb_v1.rom 0x0 0x200000 NORM
+sdb_v2.rom 0x200000 0x200000 NORM
+END
+GFX 0xc00000
+sdb_c1.rom 0x0 0x400000 ALTERNATE
+sdb_c2.rom 0x1 0x400000 ALTERNATE
+sdb_c3.rom 0x800000 0x200000 ALTERNATE
+sdb_c4.rom 0x800001 0x200000 ALTERNATE
+END
+END
+

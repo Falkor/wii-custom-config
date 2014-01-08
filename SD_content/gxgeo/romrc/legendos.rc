@@ -1,0 +1,45 @@
+longname Legend of Success Joe / Ashitano Joe Densetsu
+#mame set of  legendos 
+game  legendos  MVS "Legend of Success Joe / Ashitano Joe Densetsu"
+CPU 0x100000
+029-p1.bin 0x0 0x80000 NORM
+END
+SFIX 0x20000
+029-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x10000
+029-m1.bin 0x0 0x10000 NORM
+END
+SOUND1 0x100000
+029-v1.bin 0x0 0x100000 NORM
+END
+GFX 0x400000
+029-c1.bin 0x0 0x100000 ALTERNATE
+029-c2.bin 0x1 0x100000 ALTERNATE
+029-c3.bin 0x200000 0x100000 ALTERNATE
+029-c4.bin 0x200001 0x100000 ALTERNATE
+END
+END
+
+#old mame set of legendos
+game legendos MVS "Legend of Success Joe / Ashitano Joe Densetsu"
+CPU 0x100000
+joe_p1.rom 0x0 0x80000 NORM
+END
+SFIX 0x20000
+joe_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x10000
+joe_m1.rom 0x0 0x10000 NORM
+END
+SOUND1 0x100000
+joe_v1.rom 0x0 0x100000 NORM
+END
+GFX 0x400000
+joe_c1.rom 0x0 0x100000 ALTERNATE
+joe_c2.rom 0x1 0x100000 ALTERNATE
+joe_c3.rom 0x200000 0x100000 ALTERNATE
+joe_c4.rom 0x200001 0x100000 ALTERNATE
+END
+END
+

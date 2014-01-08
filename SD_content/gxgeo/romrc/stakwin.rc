@@ -1,0 +1,47 @@
+longname Stakes Winner / Stakes Winner - GI kinzen seihae no michi
+#mame set of  stakwin 
+game  stakwin  MVS "Stakes Winner / Stakes Winner - GI kinzen seihae no michi"
+CPU 0x200000
+088-p1.bin 0x100000 0x100000 NORM
+- 0x0 0x100000 NORM
+END
+SFIX 0x20000
+088-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x20000
+088-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+088-v1.bin 0x0 0x200000 NORM
+END
+GFX 0x800000
+088-c1.bin 0x0 0x200000 ALTERNATE
+088-c2.bin 0x1 0x200000 ALTERNATE
+088-c3.bin 0x400000 0x200000 ALTERNATE
+088-c4.bin 0x400001 0x200000 ALTERNATE
+END
+END
+
+#old mame set of stakwin
+game stakwin MVS "Stakes Winner / Stakes Winner - GI kinzen seihae no michi"
+CPU 0x200000
+stakw_p1.rom 0x100000 0x100000 NORM
+- 0x0 0x100000 NORM
+END
+SFIX 0x20000
+stakw_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+stakw_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+stakw_v1.rom 0x0 0x200000 NORM
+END
+GFX 0x800000
+stakw_c1.rom 0x0 0x200000 ALTERNATE
+stakw_c2.rom 0x1 0x200000 ALTERNATE
+stakw_c3.rom 0x400000 0x200000 ALTERNATE
+stakw_c4.rom 0x400001 0x200000 ALTERNATE
+END
+END
+
