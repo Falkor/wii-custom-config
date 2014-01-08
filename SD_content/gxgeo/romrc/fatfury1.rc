@@ -1,0 +1,49 @@
+longname Fatal Fury - King of Fighters / Garou Densetsu - shukumei no tatakai
+#mame set of  fatfury1 
+game  fatfury1  MVS "Fatal Fury - King of Fighters / Garou Densetsu - shukumei no tatakai"
+CPU 0x100000
+033-p1.bin 0x0 0x80000 NORM
+033-p2.bin 0x80000 0x20000 NORM
+END
+SFIX 0x20000
+033-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x20000
+033-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+033-v1.bin 0x0 0x100000 NORM
+033-v2.bin 0x100000 0x100000 NORM
+END
+GFX 0x400000
+033-c1.bin 0x0 0x100000 ALTERNATE
+033-c2.bin 0x1 0x100000 ALTERNATE
+033-c3.bin 0x200000 0x100000 ALTERNATE
+033-c4.bin 0x200001 0x100000 ALTERNATE
+END
+END
+
+#old mame set of fatfury1
+game fatfury1 MVS "Fatal Fury - King of Fighters / Garou Densetsu - shukumei no tatakai"
+CPU 0x100000
+ffry_p1.rom 0x0 0x80000 NORM
+ffry_p2.rom 0x80000 0x20000 NORM
+END
+SFIX 0x20000
+ffry_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+ffry_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+ffry_v1.rom 0x0 0x100000 NORM
+ffry_v2.rom 0x100000 0x100000 NORM
+END
+GFX 0x400000
+ffry_c1.rom 0x0 0x100000 ALTERNATE
+ffry_c2.rom 0x1 0x100000 ALTERNATE
+ffry_c3.rom 0x200000 0x100000 ALTERNATE
+ffry_c4.rom 0x200001 0x100000 ALTERNATE
+END
+END
+

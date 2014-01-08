@@ -1,0 +1,43 @@
+longname Panic Bomber
+#mame set of  panicbom 
+game  panicbom  MVS "Panic Bomber"
+CPU 0x100000
+073-p1.bin 0x0 0x40000 NORM
+END
+SFIX 0x20000
+073-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x20000
+073-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x300000
+073-v1.bin 0x0 0x200000 NORM
+073-v2.bin 0x200000 0x100000 NORM
+END
+GFX 0x200000
+073-c1.bin 0x0 0x100000 ALTERNATE
+073-c2.bin 0x1 0x100000 ALTERNATE
+END
+END
+
+#old mame set of panicbom
+game panicbom MVS "Panic Bomber"
+CPU 0x100000
+panic_p1.rom 0x0 0x40000 NORM
+END
+SFIX 0x20000
+panic_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+panic_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x300000
+panic_v1.rom 0x0 0x200000 NORM
+panic_v2.rom 0x200000 0x100000 NORM
+END
+GFX 0x200000
+panic_c1.rom 0x0 0x100000 ALTERNATE
+panic_c2.rom 0x1 0x100000 ALTERNATE
+END
+END
+

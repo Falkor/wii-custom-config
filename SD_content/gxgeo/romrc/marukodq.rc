@@ -1,0 +1,47 @@
+longname Chibi Marukochan Deluxe Quiz
+#mame set of  marukodq 
+game  marukodq  MVS "Chibi Marukochan Deluxe Quiz"
+CPU 0x100000
+206-p1.bin 0x0 0x100000 NORM
+END
+SFIX 0x8000
+206-s1.bin 0x0 0x8000 NORM
+END
+SM1 0x20000
+206-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x400000
+206-v1.bin 0x0 0x200000 NORM
+206-v2.bin 0x200000 0x200000 NORM
+END
+GFX 0xa00000
+206-c1.bin 0x0 0x400000 ALTERNATE
+206-c2.bin 0x1 0x400000 ALTERNATE
+206-c3.bin 0x800000 0x100000 ALTERNATE
+206-c4.bin 0x800001 0x100000 ALTERNATE
+END
+END
+
+#old mame set of marukodq
+game marukodq MVS "Chibi Marukochan Deluxe Quiz"
+CPU 0x100000
+maru-p1.rom 0x0 0x100000 NORM
+END
+SFIX 0x8000
+maru-s1.rom 0x0 0x8000 NORM
+END
+SM1 0x20000
+maru-m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x400000
+maru-v1.rom 0x0 0x200000 NORM
+maru-v2.rom 0x200000 0x200000 NORM
+END
+GFX 0xa00000
+maru-c1.rom 0x0 0x400000 ALTERNATE
+maru-c2.rom 0x1 0x400000 ALTERNATE
+maru-c3.rom 0x800000 0x100000 ALTERNATE
+maru-c4.rom 0x800001 0x100000 ALTERNATE
+END
+END
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+  <app version="20101119">
+    <name>GxGeo</name>
+    <coder>blizzo</coder>
+    <version>20101119</version>
+    <release_date>20101119</release_date>
+    <short_description>Neo-Geo Emulator</short_description>
+    <long_description>A Neo-Geo Emulator based on GnGeo</long_description>
+  </app>

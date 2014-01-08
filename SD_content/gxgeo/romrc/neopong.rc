@@ -1,0 +1,21 @@
+longname Neopong 1.1
+#mame set of  Neopong 
+game  neopong  MVS "Neopong 1.1"
+CPU 0x100000
+pong_p1.rom 0x0 0x20000 NORM
+END
+SFIX 0x20000
+pong_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x10000
+pong_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+pong_v1.rom 0x0 0x200000 NORM
+END
+GFX 0x200000
+pong_c1.rom 0x0 0x100000 ALTERNATE
+pong_c2.rom 0x1 0x100000 ALTERNATE
+END
+END
+

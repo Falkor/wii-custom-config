@@ -1,0 +1,47 @@
+longname Street Hoop / Street Slam / Dunk Dream
+#mame set of  strhoop 
+game  strhoop  MVS "Street Hoop / Street Slam / Dunk Dream"
+CPU 0x100000
+079-p1.bin 0x0 0x100000 NORM
+END
+SFIX 0x20000
+079-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x10000
+079-m1.bin 0x0 0x10000 NORM
+END
+SOUND1 0x280000
+079-v1.bin 0x0 0x200000 NORM
+079-v2.bin 0x200000 0x80000 NORM
+END
+GFX 0x800000
+079-c1.bin 0x0 0x200000 ALTERNATE
+079-c2.bin 0x1 0x200000 ALTERNATE
+079-c3.bin 0x400000 0x200000 ALTERNATE
+079-c4.bin 0x400001 0x200000 ALTERNATE
+END
+END
+
+#old mame set of strhoop
+game strhoop MVS "Street Hoop / Street Slam / Dunk Dream"
+CPU 0x100000
+shoop_p1.rom 0x0 0x100000 NORM
+END
+SFIX 0x20000
+shoop_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x10000
+shoop_m1.rom 0x0 0x10000 NORM
+END
+SOUND1 0x280000
+shoop_v1.rom 0x0 0x200000 NORM
+shoop_v2.rom 0x200000 0x80000 NORM
+END
+GFX 0x800000
+shoop_c1.rom 0x0 0x200000 ALTERNATE
+shoop_c2.rom 0x1 0x200000 ALTERNATE
+shoop_c3.rom 0x400000 0x200000 ALTERNATE
+shoop_c4.rom 0x400001 0x200000 ALTERNATE
+END
+END
+

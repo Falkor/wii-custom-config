@@ -1,0 +1,45 @@
+longname Money Puzzle Exchanger / Money Idol Exchanger
+#mame set of  miexchng 
+game  miexchng  MVS "Money Puzzle Exchanger / Money Idol Exchanger"
+CPU 0x100000
+231-p1.bin 0x0 0x80000 NORM
+END
+SFIX 0x20000
+231-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x20000
+231-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x400000
+231-v1.bin 0x0 0x400000 NORM
+END
+GFX 0x500000
+231-c1.bin 0x0 0x200000 ALTERNATE
+231-c2.bin 0x1 0x200000 ALTERNATE
+231-c3.bin 0x400000 0x80000 ALTERNATE
+231-c4.bin 0x400001 0x80000 ALTERNATE
+END
+END
+
+#old mame set of miexchng
+game miexchng MVS "Money Puzzle Exchanger / Money Idol Exchanger"
+CPU 0x100000
+miex-p1.rom 0x0 0x80000 NORM
+END
+SFIX 0x20000
+miex-s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+miex-m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x400000
+miex-v1.rom 0x0 0x400000 NORM
+END
+GFX 0x500000
+miex-c1.rom 0x0 0x200000 ALTERNATE
+miex-c2.rom 0x1 0x200000 ALTERNATE
+miex-c3.rom 0x400000 0x80000 ALTERNATE
+miex-c4.rom 0x400001 0x80000 ALTERNATE
+END
+END
+

@@ -1,0 +1,61 @@
+longname Pop 'n Bounce / Gapporin
+#mame set of  popbounc 
+game  popbounc  MVS "Pop 'n Bounce / Gapporin"
+CPU 0x100000
+237-p1.bin 0x0 0x100000 NORM
+END
+SFIX 0x20000
+237-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x20000
+237-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+237-v1.bin 0x0 0x200000 NORM
+END
+GFX 0x400000
+237-c1.bin 0x0 0x200000 ALTERNATE
+237-c2.bin 0x1 0x200000 ALTERNATE
+END
+END
+
+#old mame set of popbounc
+game popbounc MVS "Pop 'n Bounce / Gapporin"
+CPU 0x100000
+pnb-p1.rom 0x0 0x100000 NORM
+END
+SFIX 0x20000
+pnb-s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+pnb-m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+pnb-v1.rom 0x0 0x200000 NORM
+END
+GFX 0x400000
+pnb-c1.rom 0x0 0x200000 ALTERNATE
+pnb-c2.rom 0x1 0x200000 ALTERNATE
+END
+END
+
+#alternate romset
+game popbounc MVS "Pop 'n Bounce / Gapporin"
+CPU 0x100000
+pnb_p1.rom 0x0 0x100000 NORM
+END
+SFIX 0x20000
+pnb_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+pnb_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+pnb_v1.rom 0x0 0x200000 NORM
+END
+GFX 0x400000
+pnb_c1.rom 0x0 0x200000 ALTERNATE
+pnb_c2.rom 0x1 0x200000 ALTERNATE
+END
+END
+

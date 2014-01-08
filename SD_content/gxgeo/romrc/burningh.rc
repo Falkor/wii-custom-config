@@ -1,0 +1,47 @@
+longname Burning Fight (set 2)
+#mame set of  burningh 
+game  burningh  MVS "Burning Fight (set 2)"
+CPU 0x100000
+018-p1h.bin 0x0 0x80000 NORM
+END
+SFIX 0x20000
+018-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x20000
+018-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+018-v1.bin 0x0 0x100000 NORM
+018-v2.bin 0x100000 0x100000 NORM
+END
+GFX 0x400000
+018-c1.bin 0x0 0x100000 ALTERNATE
+018-c2.bin 0x1 0x100000 ALTERNATE
+018-c3.bin 0x200000 0x100000 ALTERNATE
+018-c4.bin 0x200001 0x100000 ALTERNATE
+END
+END
+
+#old mame set of burningh
+game burningh MVS "Burning Fight (set 2)"
+CPU 0x100000
+burnh_p1.rom 0x0 0x80000 NORM
+END
+SFIX 0x20000
+burnf_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+burnf_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+burnf_v1.rom 0x0 0x100000 NORM
+burnf_v2.rom 0x100000 0x100000 NORM
+END
+GFX 0x400000
+burnf_c1.rom 0x0 0x100000 ALTERNATE
+burnf_c2.rom 0x1 0x100000 ALTERNATE
+burnf_c3.rom 0x200000 0x100000 ALTERNATE
+burnf_c4.rom 0x200001 0x100000 ALTERNATE
+END
+END
+

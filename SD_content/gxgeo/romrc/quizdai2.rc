@@ -1,0 +1,47 @@
+longname Quiz Meintantei Neo Geo - Quiz Daisousa Sen Part 2
+#mame set of  quizdai2 
+game  quizdai2  MVS "Quiz Meintantei Neo Geo - Quiz Daisousa Sen Part 2"
+CPU 0x100000
+042-p1.bin 0x0 0x100000 NORM
+END
+SFIX 0x20000
+042-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x20000
+042-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+042-v1.bin 0x0 0x100000 NORM
+042-v2.bin 0x100000 0x100000 NORM
+END
+GFX 0x300000
+042-c1.bin 0x0 0x100000 ALTERNATE
+042-c2.bin 0x1 0x100000 ALTERNATE
+042-c3.bin 0x200000 0x80000 ALTERNATE
+042-c4.bin 0x200001 0x80000 ALTERNATE
+END
+END
+
+#old mame set of quizdai2
+game quizdai2 MVS "Quiz Meintantei Neo Geo - Quiz Daisousa Sen Part 2"
+CPU 0x100000
+mein_p1.rom 0x0 0x100000 NORM
+END
+SFIX 0x20000
+mein_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+mein_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x200000
+mein_v1.rom 0x0 0x100000 NORM
+mein_v2.rom 0x100000 0x100000 NORM
+END
+GFX 0x300000
+mein_c1.rom 0x0 0x100000 ALTERNATE
+mein_c2.rom 0x1 0x100000 ALTERNATE
+mein_c3.rom 0x200000 0x80000 ALTERNATE
+mein_c4.rom 0x200001 0x80000 ALTERNATE
+END
+END
+

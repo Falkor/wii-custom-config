@@ -1,0 +1,80 @@
+longname Puzzle De Pon R
+#mame set of  puzzldpr 
+game  puzzldpr  MVS "Puzzle De Pon R"
+CPU 0x100000
+235-p1.bin 0x0 0x80000 NORM
+END
+SFIX 0x10000
+235-s1.bin 0x0 0x10000 NORM
+END
+SM1 0x20000
+202-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x80000
+202-v1.bin 0x0 0x80000 NORM
+END
+GFX 0x200000
+202-c1.bin 0x0 0x100000 ALTERNATE
+202-c2.bin 0x1 0x100000 ALTERNATE
+END
+END
+
+#old mame set of puzzldpr
+game puzzldpr MVS "Puzzle De Pon R"
+CPU 0x100000
+pdpnr_p1.rom 0x0 0x80000 NORM
+END
+SFIX 0x10000
+pdpnr_s1.rom 0x0 0x10000 NORM
+END
+SM1 0x20000
+pdpon_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x80000
+pdpon_v1.rom 0x0 0x80000 NORM
+END
+GFX 0x200000
+pdpon_c1.rom 0x0 0x100000 ALTERNATE
+pdpon_c2.rom 0x1 0x100000 ALTERNATE
+END
+END
+
+# Alternate set for puzzldpr
+game puzzldpr MVS "Puzzle De Pon R"
+CPU 0x100000
+pdpr_p1.rom 0x0 0x80000 NORM
+END
+SFIX 0x10000
+pdpr_s1.rom 0x0 0x10000 NORM
+END
+SM1 0x20000
+pdpr_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x80000
+pdpr_v1.rom 0x0 0x80000 NORM
+END
+GFX 0x200000
+pdpr_c1.rom 0x0 0x100000 ALTERNATE
+pdpr_c2.rom 0x1 0x100000 ALTERNATE
+END
+END
+
+game puzzldpr MVS "Puzzle De Pon R"
+SFIX 0x10000
+pdpnr_s1.rom 0x00000 0x10000 NORM
+END
+SM1 0x20000
+pdpnr_m1.rom 0x00000 0x20000 NORM
+END
+SOUND1 0x080000
+pdpnr_v1.rom 0x00000 0x080000 NORM
+END
+CPU 0x100000
+pdpnr_p1.rom 0x00000 0x080000 NORM
+END
+GFX 0x200000
+pdpnr_c1.rom 0x00000 0x100000 ALTERNATE
+pdpnr_c2.rom 0x00001 0x100000 ALTERNATE
+END
+END
+

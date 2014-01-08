@@ -1,0 +1,49 @@
+longname Zed Blade / Operation Ragnarok
+#mame set of  zedblade 
+game  zedblade  MVS "Zed Blade / Operation Ragnarok"
+CPU 0x100000
+076-p1.bin 0x0 0x80000 NORM
+END
+SFIX 0x20000
+076-s1.bin 0x0 0x20000 NORM
+END
+SM1 0x20000
+076-m1.bin 0x0 0x20000 NORM
+END
+SOUND1 0x500000
+076-v1.bin 0x0 0x200000 NORM
+076-v2.bin 0x200000 0x200000 NORM
+076-v3.bin 0x400000 0x100000 NORM
+END
+GFX 0x800000
+076-c1.bin 0x0 0x200000 ALTERNATE
+076-c2.bin 0x1 0x200000 ALTERNATE
+076-c3.bin 0x400000 0x200000 ALTERNATE
+076-c4.bin 0x400001 0x200000 ALTERNATE
+END
+END
+
+#old mame set of zedblade
+game zedblade MVS "Zed Blade / Operation Ragnarok"
+CPU 0x100000
+zedbl_p1.rom 0x0 0x80000 NORM
+END
+SFIX 0x20000
+zedbl_s1.rom 0x0 0x20000 NORM
+END
+SM1 0x20000
+zedbl_m1.rom 0x0 0x20000 NORM
+END
+SOUND1 0x500000
+zedbl_v1.rom 0x0 0x200000 NORM
+zedbl_v2.rom 0x200000 0x200000 NORM
+zedbl_v3.rom 0x400000 0x100000 NORM
+END
+GFX 0x800000
+zedbl_c1.rom 0x0 0x200000 ALTERNATE
+zedbl_c2.rom 0x1 0x200000 ALTERNATE
+zedbl_c3.rom 0x400000 0x200000 ALTERNATE
+zedbl_c4.rom 0x400001 0x200000 ALTERNATE
+END
+END
+
