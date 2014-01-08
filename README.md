@@ -22,7 +22,7 @@ this file.
 > out of warranty repairs on it, such as disc drive replacements.
 >
 > **In all cases, neither I nor the developpers of the used applications mentionned in 
-> this file should not be held responsible in case the below instructions hurt / brick 
+> this file should be held responsible in case the below instructions hurt / brick 
 > you Wii.** 
 
 
