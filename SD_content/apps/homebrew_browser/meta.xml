@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+	<name>Homebrew Browser</name>
+	<coder>teknecal</coder>
+	<version>0.3.9e</version>
+	<release_date>201210070000</release_date>
+	<short_description>Browse homebrew apps</short_description>
+	<long_description>The Homebrew Browser allows you to download the latest homebrew applications and games all through your Wii. You don't need to take your SD card out. You don't even need a computer! You can also delete homebrew you no longer want.
+
+No more dead links, no more extracting files, no more finding out that the homebrew application doesn't include an icon.png and meta.xml in the zip file! 
+
+Icons:
+Green Tick - You have the latest version of that homebrew application installed.
+Yellow Question Mark - You might not have the latest version of that homebrew application installed.
+
+Controls:
+A Button = Click Button
+B Button = Cancel Download or Extracting
+Hold B button - Move the Wiimote up and down to scroll through the list quickly
+D Pad Left/Right = Change category
+D Pad Up/Down = Scroll up and down the list slowly
+Minus/Plus Button = Delete/Remove/Add application to download/delete queue
+Home Button = Menu
+Hold Home Button down = Return to loader
+1 Button = Work offline
+2 Button = Revert to CodeMii repository
+
+Author:
+teknecal (teknecal@gmail.com) - www.codemii.com
+Graphics by DayDreamOz (www.spriteattack.com)
+
+History:
+7 October 2012 (v0.3.9e)
+- Updated with latest libogc which should correct network issues some users are experiencing
+
+17 September 2012 (v0.3.9d)
+- Added support for new Wiimote 
+- Added a longer timeout when requesting the homebrew list
+
+25 February 2011 (v0.3.9c)
+- Fixed connecting to the backup server
+- Added setting to allow use of secondary server whenever you like
+
+31 October 2010 (v0.3.9b)
+- Added secondary CodeMii server
+- Added a connection test so HBB doesn't look frozen if it can't connect to the server
+
+21 October 2010 (v0.3.9a)
+- Really fixed bug with HBB calculating the wrong free space
+- Fixed bug when trying to use other repositories apart from CodeMii
+- Added setting to enable/disable HBB from checking for updates
+
+
+Credits:
+LowLines for the Homebrew Browser v0.2.x graphics including logo, HBC icon and all other graphics
+joedj - ftpii source for network read and write
+NoNameNo &amp; Redshare - GRRLIB (3.0)
+Tantric - Unzip library
+All the Wii homebrew developers and icon artists
+All the people who tested the HBB revisions
+Team Twiizers, #wiidev &amp; #wiihelp
+
+Misc:
+Want to be notified when applications are updated?
+Add hbb@codemii.com to your Wii address book
+For more information about HBB and developments visit: www.codemii.com
+
+Visit the homebrew developers on IRC at irc.efnet.org at #wiidev
+Need help with running homebrew on your Wii? Visit #wiihelp</long_description>
+</app>
