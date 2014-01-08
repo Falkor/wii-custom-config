@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>Genesis Plus GX</name>
+  <coder>Eke-Eke</coder>
+  <version>1.7.4</version>
+  <release_date>21/06/2013</release_date>
+  <short_description>Sega 8-bit/16-bit emulator</short_description> 
+  <long_description>This is a Sega / Mega CD, Mega Drive / Genesis, Master System, Game Gear &amp; SG-1000 emulator based on the initial work of Charles MacDonald. The original code has been highly modified to improve emulation accuracy as well as adding many extra features, in order to provide 100% game compatibility with emulated systems. For any questions, make sure to read the user manual first and visit official homepage at http://code.google.com/p/genplus-gx/</long_description> 
+  <ahb_access/>
+</app>
